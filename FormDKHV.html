@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form đăng ký học viên</title>
+    <link rel="stylesheet" href="StyleDKHV.css">
+</head>
+
+<body>
+    <form action="FormDKHV.html" style="background-color:rgb(248, 246, 99) ;">
+        <h2>ĐĂNG KÝ HỌC VIÊN</h2>
+        <div class="form_Input">
+            <p class="form_Lable">Họ và tên</p>
+            <input type="text" name="Yourname" id="name">
+        </div>
+        <div class="form_Input">
+            <p class="form_Lable">Ngày sinh</p>
+            <input type="text" name="Yourname" id="name">
+        </div>
+        <div class="form_Input">
+            <p class="form_Lable">Giới tính</p>
+            <input type="radio" name="gender" value="Nam"> Nam
+            <input type="radio" name="gender" value="Nữ"> Nữ
+        </div>
+        <div class="form_Input">
+            <p class="form_Lable">Lớp</p>
+            <select name="Class" id="class">
+                <option value="lop 1">Lớp 1</option>
+                <option value="lop 2">Lớp 2</option>
+                <option value="lop 3">Lớp 3</option>
+                <option value="lop 4">Lớp 4</option>
+            </select>
+        </div>
+        <div class="form_Input">
+            <p class="form_Lable">email</p>
+            <input type="text" name="Email" id="email">
+        </div>
+        <div class="form_Input">
+            <p class="form_Lable">Điện thoại</p>
+            <input type="text" name="ĐT" id="DT">
+        </div>
+        <div class="form_Input">
+            <input type="button" name="submit" value="Gửi thông tin">
+            <input type="reset" value="Nhập lại">
+        </div>
+    </form>
+</body>
+
+</html>
